@@ -1,12 +1,10 @@
 const nameArr = [];
 
 function display(selectedPlayers) {
-    // console.log(selectedPlayers);
     const listBody = document.getElementById('selected-players');
     listBody.innerText = '';
 
     for (let i = 0; i < selectedPlayers.length; i++) {
-        // console.log(selectedPlayers[i]);
         const name = selectedPlayers[i];
 
         const li = document.createElement('li');
@@ -27,7 +25,7 @@ function selected(element) {
     }
     element.disabled = true;
     if (nameArr.length > 5) {
-        alert('5 players selected, can not add more')
+        alert('You can not add more than 5 players.')
     }
 }
 
