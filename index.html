@@ -92,7 +92,36 @@
                 </div>
 
                 <div>
-                    
+                    <h2>Budget</h2>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Per Player</span>
+                        <input id="per-player" type="text" aria-label="First name" class="form-control">
+                    </div>
+
+                    <button id="calculate" type="button" class="mt-2 btn btn-dark">Calculate</button> <br> <br>
+
+                    <p class="d-inline">Player Expenses</p>
+                    <p class="d-inline">$<span id="player-expenses">0</span></p> <br>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Manager</span>
+                        <input id="manager" type="text" aria-label="First name" class="form-control">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Coach</span>
+                        <input id="coach" type="text" aria-label="First name" class="form-control">
+                    </div>
+
+                    <button id="calculate-total" type="button" class="mt-2 btn btn-dark">Calculate Total</button>
+                    <br>
+
+                    <span>Total</span>
+                    <span>$
+                        <span id="total">0</span>
+                    </span>
+                </div>
             </aside>
         </section>
     </main>
